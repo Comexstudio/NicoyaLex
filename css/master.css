@@ -1,0 +1,735 @@
+/* Herencia General */
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+p{
+    margin-bottom:  1.6em;
+}
+
+.container {
+    width: 85%;
+    max-width: 2300px;
+    margin: 0 auto;
+}
+
+/* Inicio del Header */
+
+.header_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 80px;
+}
+
+.h1_nicoya{
+    font-size: 21px;
+}
+
+.header_raya{
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-left: 570px;
+    margin-right: 570px;
+}
+
+.header{
+    padding: 2rem 0;
+    background-color: white;
+    /*Fijo*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 50000;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+/*Ocultar menu*/
+
+.menu__{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+/* Fin Header */
+
+
+/* Main */
+.main{
+    margin-top: 168px;
+    padding-top: 28px;
+    margin-top: 110px;
+}
+
+.h1_nicoya{
+    color: #611718;
+    font-weight: 300;
+}
+
+.nicoyalex{
+    display: flex; 
+    justify-content: center;
+    background-color: #ddd;
+    border-radius: 80px 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Contenedor de Servicios */
+.container_servicios{
+    display: flex;
+}
+
+.ser1{
+    height: 150px;
+    width: 50%;
+}
+
+.ser1_img{
+    width: 100%;
+    height: 508px;
+}
+
+.ser2{
+    background-color: #490816 ;
+    height: 508px;
+    width: 50%;
+}
+
+#ser1ocul{
+    display: none;
+}
+
+/* Parrafos */
+.espe_h1{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    font-weight: 300;
+}
+
+.espe_start{
+    height: 23px;
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+    margin-right: 1px;  
+}
+
+.espe_4{
+    padding-top: 55px;
+}
+
+#espe2_{
+    padding-right: 186px;
+}
+
+#espe2{
+    padding-right: 123px;
+}
+.espe_2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+.espe_p{
+    text-align: center;
+    color: white;
+}
+
+#espe_ex{
+    padding-right: 188px;
+}
+#espe_an{
+    padding-right: 168px;
+}
+#espeju{
+    padding-right: 176px;
+}
+
+/* Parrafos 2*/
+
+.espe_2_{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#espe_2__{
+    padding-right: 45px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+#espe_p__{
+    text-align: center;
+    color: white;
+    padding-right: 21px;
+}
+
+#espe_pro{
+    padding-left: 19px;
+}
+
+#espe_p_{
+    padding-right: 64px;
+}
+#espe_2___{
+    padding-right: 45px; 
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+#espse{
+    padding-top: 30px;
+    font-weight: 300;
+}
+#espe_pro{
+    padding-left: 8px;
+}
+.span_segu{
+    height: 23px;
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+    margin-right: 1px;  
+    margin-right: 10px;
+}
+
+/* Comentarios */
+
+.comentarios{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.cliente_{
+    margin-top: 48px;
+    color: #611718;
+}
+
+.comentarios_p{
+    font-size: 15px;
+}
+
+.contacto_p{
+    margin-top:  108px;
+    color: #611718;
+    font-size: 30px;
+}
+
+.contacto_n{
+    font-size: 15px;
+}
+.contacto_r{
+    font-size: 15px;
+}
+.contacto_num{
+    font-size: 15px;
+}
+
+/* Videos */
+.cont_videos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos_p{
+    text-align: center;
+    color: #611718;
+    font-size: 20px;
+}
+
+/* Contacto */
+
+.contacto_{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* Mapa */
+#map{
+    height: 500px;
+    width: 100%;
+    margin-top: 110px;
+}
+
+/* Acerca de *****************************************************************************************************************************/
+
+
+.container_info{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.img_nicoyalex{
+    height: 530px;
+    padding-right: 0px;
+    padding-left: 55px;
+}
+
+/* Acerca de *****************************************************************************************************************************/
+
+
+
+/* Nuestro Equipo *****************************************************************************************************************************/
+
+#accordionFlushExample{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.abo3_{
+    height: 200px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.abo3{
+    text-align: center;
+}
+.abo2{
+    text-align: center;
+}
+.abo1{
+    text-align: center;
+}
+
+.abo2_{
+    height: 200px;
+    text-align: center;
+}
+
+.abo1_{
+    height: 200px;
+    text-align: center;
+}
+
+.abogados_h_raya1{
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 18px;
+    padding-left: 300px;
+    margin-right: 21px;
+}
+
+.abogados_h_raya{
+    padding-top: 0px;
+    margin-top: 18px;
+    padding-left: 300px;
+    padding-right: 0px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-left: 21px;
+}
+.abogados{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+    padding-top: 25px;
+}
+.abogados_h{
+    text-align: center;
+    color: #611718;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.container_lista_h{
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 43px;
+    line-height: 40px;
+}
+
+.text1{    
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-size: 25px;
+    color: white;
+
+}
+
+.text{
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    font-size: 35px;
+    color: white;
+}
+
+.container_equipo{
+    display: flex;
+    justify-content: center;
+}
+.img_equipo_trabajo{
+    object-fit: cover;
+    height: 360px;
+    width: 100%;
+}
+
+/* Nuestro Equipo *****************************************************************************************************************************/
+.p_abogados{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+/* whatsapp *****************************************************************************************************************************/
+#app-whatsapp{
+    position: fixed;
+    right:24px;
+    bottom: 25px;
+    width: 60px;
+    z-index: 1000;
+    display: none;
+}
+
+#app-whatsapp{
+    bottom:95px;
+    display: block;
+}
+#app-whatsapp{
+    font-size:63px;
+}
+#app-whatsapp{
+    color: #1ebea5;
+}
+
+/* whatsapp *****************************************************************************************************************************/
+
+
+/* Footer */
+.footer{
+    background: #611718;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.footer .derechos{
+    color: white;
+    text-align: center;
+}
+
+
+/*Media queery para responsive*/
+@media only screen and (max-width: 767px) {
+
+    .p_abogados{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .abo3_{
+        padding-left: 0px;
+    }
+
+    .abo1_{
+        padding-right: 0px;
+    }
+
+    .container_lista_h{
+        text-align: center;
+    }
+
+    .img_equipo_trabajo{
+        width: 100%;
+        height: 191px;
+        object-fit: cover;
+    }
+
+    .text{
+        font-size: 25px;
+    }
+
+    .text1{
+        font-size: 20px;
+    }
+
+    .main{
+        margin-top: 159px;
+    }
+
+    .container_lista_h{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .abogados_h_raya1{
+        display:none
+    }
+    .abogados_h_raya{
+        display:none
+    }
+    .aboga_team{
+        flex-direction: column;
+    }
+
+    .text1{
+        top: 29%;
+    }
+    .text{
+        top: 24%;
+    }
+    .img_equipo_trabajo{
+        width: 100%;
+        height: 191px;
+    }
+    .info_nico_p{
+        margin-bottom: 2.6em;
+    }
+
+    .info_nicoyalex_quienes{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .info_nicoyalex{
+        text-align: center;
+        margin-top: 8px;
+        color: #611718;
+        font-weight: 300;
+    }
+
+    .img_nicoyalex{
+        width: 100%;
+    }
+
+    .container_info {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .img_nicoyalex{
+        padding-left: 0px;
+    }
+
+    .navigation ul.show{
+        padding-bottom: 100%;
+    }
+
+    .img_comentario{
+        padding-top: 80px;
+    }
+
+    .you{
+        width: 100%;
+    }
+
+    .cont_videos{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .ser1_img{
+        width: 100%;
+        height: 344px;
+    }
+    
+
+    #espe_pro{
+        padding-left: 0;
+    }
+
+    #espe_2___{
+        padding-right: 0;
+    }
+
+    #espe_p_{
+        padding-right: 0;
+    }
+
+    #espe_p__{
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    #espe_2___{
+        font-size: 20px;
+    }
+
+    #espse{
+        font-size: 20px;
+    }
+
+    #espe_2__{
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    #ser1ocul{
+        display: block;
+    }
+
+    #serw{
+        display: none;
+    }
+
+    .main{
+        padding-top: 0px;
+    }
+
+    .header{
+        padding-bottom: 0px;
+    }
+    #espeju{
+        padding-right: 0;
+    }
+
+    #espe2_{
+        padding-right: 0;
+    }
+
+    #espe_an{
+        padding-right: 0px;
+    }
+
+    #espe2{
+        padding-right: 0;
+    }
+
+    #espe_ex{
+        padding-right: 0;
+    }
+
+    .espe_p{
+        padding-right: 0px;
+        font-size: 15px;
+    }
+
+    .espe_2{
+        font-size: 20px;
+    }
+
+    .espe_h1{
+        font-size: 23px;
+    }
+
+    .ser1{
+        width: 100%;
+        height: 344px;
+    }
+
+    .ser2{
+        width: 100%;
+        height: 445px;
+    }
+
+    .container_servicios{
+        flex-direction: column-reverse;
+    }
+
+    .h1_nicoya{
+        font-size: 20px;
+    }
+
+    .nicoyalex{
+        padding-bottom: 0px;
+        padding-top: 9px;
+    }
+
+    .header{
+        padding-top: 0px;
+    }
+
+    .header_color{
+        background-color: #490816;;
+    }
+    .menu__{
+        display: block;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        justify-content: end;
+        display: flex;
+        padding-left: 290px;
+        padding-bottom: 0px;
+    }
+    
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    /*Ocultar*/
+    .navigation ul{
+        display: none;   
+    }
+
+    .navigation ul.show{
+        display: block;
+    }
+
+    .navigation ul li{
+        display: block;
+        text-align: center;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 15px 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    .navigation ul li a:hover{
+        background: #4a4a4a;
+    }
+}
