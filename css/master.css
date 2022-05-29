@@ -293,9 +293,27 @@ p{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 60px;
 }
 
+/* Formulario */
 
+#contact{
+    padding-top: 35px;
+}
+
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+}
+
+.mt-0{
+    color: #611718;
+}
+
+.form-floating > label{
+    color: #611718;
+}
 /* Mapa */
 #map{
     height: 500px;

@@ -28,7 +28,7 @@
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"ß/>
-    <title>NicoyaLex │ Acerca de</title>
+    <title>NicoyaLex │ Contacto</title>
 </head>
 <body>
     <!------- Header ------>
@@ -57,19 +57,62 @@
         </nav>
     </header>
     <!------ Main ----->
-    <main class="main">
+    <main class="main"></main>
+<!-- Contact-->
+<section class="page-section" id="contact">
+  <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 col-xl-6 text-center">
+              <h2 class="mt-0">¡Contáctanos!</h2>
+              <hr class="divider" />
+              <p class="text-muted mb-5">Llena nuestro formulario</p>
+          </div>
+      </div>
+      <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+          <div class="col-lg-6">
 
-      
-    </main>
-    
-    
 
+              <!--- Formulario  --->
+              <form data-sb-form-api-token="API_TOKEN" id="contactForm"  method="post" action="enviar.php" class="formulario">
+              <!-- Nombre -->
+              <div class="form-floating mb-3">
+                  <input  class="form-control" id="name" data-sb-validations="required" type="text" placeholder="Nombre" nombre="nombre" required>
+                  <!--- Opcional --->
+                  <label for="name">Nombre Completo</label>
+                  <div class="invalid-feedback" data-sb-feedback="name:required">Nombre requerido.</div>
+              </div>
+              
+              <!-- Email --->
+              <div class="form-floating mb-3">
+                  <input  class="form-control" id="email" type="text" placeholder="name@example.com" data-sb-validations="required,email" name="email" required>
+                  <!-- Opcional -->
+                      <label for="email">Email</label>
+                          <div class="invalid-feedback" data-sb-feedback="email:required">Email requerido.</div>
+                      <div class="invalid-feedback" data-sb-feedback="email:email">Email no valido.</div>
+              </div>
 
+              <!--- Mensaje --->
+              <div class="form-floating mb-3">
+                  <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" type="text" name="mensaje" required></textarea>
+                  <!-- Opcional -->
+                          <label for="message">Mensaje</label>
+                      <div class="invalid-feedback" data-sb-feedback="message:required">Mensaje requerido</div>
+              </div>
+              <!-- Boton de envio --->
+              <div class="btn-enviar">
+                  <input class="boton" type="submit" value="Enviar">
+              </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <!---- Mapa Ubicacion ----->
+  <div id="map"></div>
+  
   <!---- Contactos ---->
   <div class="contacto_">
-    <div>
-      <p class="contacto_p">Contactenos</p>
-    </div>
     <div>
       <p class="contacto_n"><span><img src="https://img.icons8.com/ios-filled/20/fa314a/google-maps-new.png"/></span>Nicoya, Guanacaste</p>
     </div>
@@ -83,10 +126,6 @@
       <a href="https://m.facebook.com/NicoyaLex-2065719336788628/"><img src="https://img.icons8.com/ios-glyphs/30/fa314a/facebook.png"/></a>
     </div>
   </div>
-
-
-  <!---- Mapa Ubicacion ----->
-  <div id="map"></div>
 
 
     <!----- Footer del Sitio ----->
