@@ -91,7 +91,7 @@ mail($to, $email_subject, $email_body, $headers);
               <form data-sb-form-api-token="API_TOKEN" id="contactForm"  method="post" action="enviar.php" class="formulario">
               <!-- Nombre -->
               <div class="form-floating mb-3">
-                  <input  class="form-control" id="name" data-sb-validations="required" type="text" placeholder="Nombre" nombre="nombre" required>
+                  <input  class="form-control" id="name" data-sb-validations="required" type="text" placeholder="Nombre" name="nombre" required>
                   <!--- Opcional --->
                   <label for="name">Nombre Completo</label>
                   <div class="invalid-feedback" data-sb-feedback="name:required">Nombre requerido.</div>
