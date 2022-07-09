@@ -1,11 +1,12 @@
 /* Herencia General */
-body{
+*{
     font-family: 'Roboto', sans-serif;
     line-height: 1.6em;
     margin: 0;
     font-weight: 400;
+    text-decoration: none;
+    list-style: none;
 }
-
 
 h1{
     font-size: 2rem;
@@ -294,13 +295,13 @@ p{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 /* Formulario */
 
 #contact{
-    padding-top: 35px;
+    padding-top: 165px;
 }
 
 .btn-enviar{
@@ -468,6 +469,16 @@ p{
 
 /* whatsapp *****************************************************************************************************************************/
 
+/*-- =========== CONTACT ============= --*/
+.contact__social p a{
+    text-decoration: none;
+    color: black;
+}
+
+.contacto_num  a{
+    text-decoration: none;
+    color: black;
+}
 
 /* Footer */
 .footer{
