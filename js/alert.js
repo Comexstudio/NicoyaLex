@@ -1,1 +1,1 @@
-alert("Mensaje enviado correctamente");
+alert("Datos enviados correctamente");

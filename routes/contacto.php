@@ -55,7 +55,7 @@
               <div class="col-lg-6">
 
                   <!-- ============ FORM ============ -->
-                  <form data-sb-form-api-token="API_TOKEN" id="contactForm"  method="post" action="enviar.php" class="formulario">
+                  <form data-sb-form-api-token="API_TOKEN" id="contactForm"  method="POST" action="enviar.php" class="formulario">
                   <div class="form-floating mb-3">
                       <input  class="form-control" id="name" data-sb-validations="required" type="text" placeholder="Nombre" name="nombre" required>
                       <label for="name">Nombre Completo</label>
