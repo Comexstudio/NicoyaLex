@@ -102,7 +102,7 @@
           <p class="contacto_r"><span><img src="https://img.icons8.com/ios-glyphs/20/fa314a/mail-contact.png"/></span> <a target="_blank" href="mailto:danielarosales@nicoyalex.com">danielarosales@nicoyalex.com</a></p>
         </div>
         <div>
-          <p class="contacto_num"><span><img src="https://img.icons8.com/material-rounded/20/fa314a/phone-not-being-used.png"/></span><a  class="number-phone" href="tel:+50626855859">+50686632139</a></p>
+          <p class="contacto_num"><span><img src="https://img.icons8.com/material-rounded/20/fa314a/phone-not-being-used.png"/></span><a  class="number-phone" href="tel:+50626855859">+5066417-1601</a></p>
         </div>
         <div>
           <a href="https://m.facebook.com/NicoyaLex-2065719336788628/"><img src="https://img.icons8.com/ios-glyphs/30/fa314a/facebook.png"/></a>
